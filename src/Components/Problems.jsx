@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import { problemList1, problemList2 } from './Problemset';
 
 
@@ -58,7 +58,9 @@ function Problems() {
         <tbody>
         {displayedProblems.map((problem, index) => (
             <tr key = {index} className="p-3 ">
-            <td className="p-3 border-4">{problem.title}</td>
+            <td className="p-3 border-4">
+              <Link to ={`/problem/${problem.title.replace(/\s+/g, "-")}`} >{problem.title}</Link>
+            </td>
             <td className="p-3 border-4"
             style = {{ color: coLor(problem.difficulty) }}
             >{problem.difficulty}</td>

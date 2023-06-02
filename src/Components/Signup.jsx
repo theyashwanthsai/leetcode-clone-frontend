@@ -7,7 +7,7 @@ function Signup() {
   return (
     <>
             <div>
-        <h1 className="text-center">Signup</h1>
+        <h1 className="text-center text-3xl">Signup</h1>
         <div className="text-center border-4 p-3 m-5">
 
         <div className="p-3">

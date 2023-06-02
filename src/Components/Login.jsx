@@ -7,7 +7,7 @@ function Login() {
   return (
     <>
       <div>
-        <h1 className="text-center">Login</h1>
+        <h1 className="text-center text-3xl">Login</h1>
         <div className="text-center border-4 p-3 m-5">
 
         <div className="p-3">
