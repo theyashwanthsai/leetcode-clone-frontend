@@ -1,8 +1,6 @@
-import React, {useState} from "react"
-import problemList1 from "./Problemset";
-import problemList2 from "./Problemset";
+import React, { useState } from "react";
 
-
+import { problemList1, problemList2 } from './Problemset';
 
 
 
@@ -14,10 +12,11 @@ function Problems() {
 
   const handleB1 = () => {
     setDisplayedProblems(problemList1);
-  }
+  };
+
   const handleB2 = () => {
     setDisplayedProblems(problemList2);
-  }
+  };
   
   return (
     <>

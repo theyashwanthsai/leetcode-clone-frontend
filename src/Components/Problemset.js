@@ -110,5 +110,4 @@ const problemList1 = [
 
 
 
-  
-  export default problemList1, problemList2;
+export default { problemList1, problemList2};
