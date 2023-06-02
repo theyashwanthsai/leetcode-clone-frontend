@@ -18,6 +18,26 @@ function Problems() {
     setDisplayedProblems(problemList2);
   };
   
+  const coLor = (difficulty) => {
+      let color;
+      if(difficulty === "Easy" ){
+        color = "green";
+      }
+      else if (difficulty === "Medium"){
+        color = "orange";
+      }
+      else{
+        color = "red";
+      }
+      return color;
+  }
+
+
+
+
+
+
+
   return (
     <>
     <div className="text-center">
@@ -39,8 +59,12 @@ function Problems() {
         {displayedProblems.map((problem, index) => (
             <tr key = {index} className="p-3 ">
             <td className="p-3 border-4">{problem.title}</td>
-            <td className="p-3 border-4">{problem.difficulty}</td>
-            <td className="p-3 border-4">{problem.acceptance}</td>
+            <td className="p-3 border-4"
+            style = {{ color: coLor(problem.difficulty) }}
+            >{problem.difficulty}</td>
+            <td className="p-3 border-4"
+            style = {{ color: coLor(problem.difficulty) }}
+            >{problem.acceptance}</td>
           </tr>
         )) }
         
