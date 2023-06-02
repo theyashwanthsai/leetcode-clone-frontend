@@ -6,7 +6,7 @@ function Problems() {
 
   return (
     <>
-      <table className="border-4 w-50 mx-14">
+      <table className="border-4 border-collapse w-11/12 mt-5">
         <thead>
 
         
