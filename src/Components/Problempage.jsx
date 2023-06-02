@@ -14,12 +14,12 @@ function Problempage() {
 
   return (
     <div className="flex">
-    <div className="w-1/2">
+    <div className="">
       <h1 className="text-3xl p-3 m-4 ">{problem.title}</h1>
-      <h5 className="text-lg p-3 m-4 ">Description</h5>
-      <div className="flex">
-      <p className="text-lg p-3 m-4 flex-col justify-start w-1/3">{problem.description}</p>
-      </div>
+      <h5 className="text-lg p-3 m-4">Description</h5>
+    
+      <p className="text-lg p-3 m-4">{problem.description}</p>
+
       
       <div className="">
       <p className="text-lg p-3 m-4 w-2/4">Input:</p>
