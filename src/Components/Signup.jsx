@@ -6,7 +6,7 @@ function Signup() {
 
   return (
     <>
-      <p>signup</p>
+      <p>signup!</p>
         
     </>
   )
