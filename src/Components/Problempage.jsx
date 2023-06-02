@@ -29,7 +29,7 @@ function Problempage() {
       </div>
       </div>
     <div className="w-1/2">
-        <h1 className= "text-3xl p-3 m-4">Code:</h1>
+        <h1 className= "text-3xl p-3 m-4">Code!:</h1>
         <textarea className="border-4" id="" cols="300" rows="30"></textarea>
     </div>
     </div>
