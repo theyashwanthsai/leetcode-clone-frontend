@@ -1,14 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { problemList1, problemList2 } from './Problemset';
+import { problemList1, problemList2 } from './Problemset.js';
 
 function Problempage() {
   const { problemName } = useParams();
 
-  // Combine the problem lists
   const allProblems = problemList1.concat(problemList2);
-
-  // Find the problem with the matching title
   const problem = allProblems.find((problem) => problem.title.replace(/\s+/g, "-") === problemName);
 
   if (!problem) {

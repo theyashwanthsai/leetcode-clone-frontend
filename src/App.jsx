@@ -6,7 +6,7 @@ import Login from "./Components/Login.jsx"
 import Problems from "./Components/Problems.jsx"
 import Signup from "./Components/Signup.jsx"
 import Problempage from "./Components/Problempage.jsx"
-import { problemList1, problemList2 } from "./Components/Problemset.js"
+
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
     <Route path = "/problems" element = {<Problems/>}/>
     <Route path = "/signup" element = {<Signup/>}/>
     <Route path = "/login" element = {<Login/>}/>
-    <Route path = "/problems/:problemName " element = {<Problempage problems = {problemList1.concat(problemList2)}/>}/>
+    <Route path = "/problems/:problemName" element = {<Problempage />}/>
     </Routes>
       
     </BrowserRouter>
