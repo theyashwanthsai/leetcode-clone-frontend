@@ -1,4 +1,4 @@
-const problemList = [
+const problemList1 = [
     {
       title: "Problem 1",
       difficulty: "Medium",
@@ -51,5 +51,64 @@ const problemList = [
     },
     // Add more problem objects as needed
   ];
+
+
+  const problemList2 = [
+    {
+      title: "Problem 11",
+      difficulty: "Medium",
+      acceptance: "80%",
+    },
+    {
+      title: "Problem 12",
+      difficulty: "Easy",
+      acceptance: "90%",
+    },
+    {
+      title: "Problem 13",
+      difficulty: "Hard",
+      acceptance: "70%",
+    },
+    {
+      title: "Problem 14",
+      difficulty: "Medium",
+      acceptance: "85%",
+    },
+    {
+      title: "Problem 15",
+      difficulty: "Easy",
+      acceptance: "75%",
+    },
+    {
+      title: "Problem 16",
+      difficulty: "Hard",
+      acceptance: "60%",
+    },
+    {
+      title: "Problem 17",
+      difficulty: "Medium",
+      acceptance: "95%",
+    },
+    {
+      title: "Problem 18",
+      difficulty: "Hard",
+      acceptance: "50%",
+    },
+    {
+      title: "Problem 19",
+      difficulty: "Easy",
+      acceptance: "85%",
+    },
+    {
+      title: "Problem 20",
+      difficulty: "Medium",
+      acceptance: "70%",
+    },
+    // Add more problem objects as needed
+  ];
+
+
+
+
   
-  export default problemList;
+  export default problemList1, problemList2;
