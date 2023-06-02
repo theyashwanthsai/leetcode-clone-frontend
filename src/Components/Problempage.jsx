@@ -13,11 +13,21 @@ function Problempage() {
   }
 
   return (
-    <div>
-      <h1>{problem.title}</h1>
-      <p>Difficulty: {problem.difficulty}</p>
-      <p>Acceptance: {problem.acceptance}</p>
-      <p>Description: {problem.description}</p>
+    <div className="flex">
+    <div className="w-2/4">
+      <h1 className="text-3xl p-3 m-4">{problem.title}</h1>
+      <h5 className="text-lg p-3 m-4 w-1/4">Description</h5>
+      <p className="text-lg p-3 m-4">{problem.description}</p>
+      <div className="">
+      <p className="text-lg p-3 m-4">Input:</p>
+      <p className="text-lg p-3 m-4">{problem.input}</p>
+      <p className="text-lg p-3 m-4">Output:</p>
+      <p className="text-lg p-3 m-4">{problem.output}</p>
+      </div>
+      </div>
+    <div className="w-2/4">
+        <h1 className= "text-3xl p-3 m-4">Code:</h1>
+    </div>
     </div>
   );
 }
