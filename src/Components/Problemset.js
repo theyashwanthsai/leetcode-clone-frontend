@@ -110,4 +110,4 @@ const problemList1 = [
 
 
 
-export default { problemList1, problemList2};
+export { problemList1, problemList2};

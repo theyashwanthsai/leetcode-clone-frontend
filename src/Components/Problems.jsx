@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { problemList1, problemList2 } from './Problemset.js';
+import { problemList1, problemList2 } from './Problemset';
 
 
 
