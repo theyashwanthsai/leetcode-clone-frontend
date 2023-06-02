@@ -3,7 +3,7 @@ const problemList1 = [
       title: "Problem 1",
       difficulty: "Medium",
       acceptance: "80%",
-      description: "qwertyuiopasdfghjklzxcvbnm",
+      description: "qwertyuiopasdfghjklzxcvbnmmmmmmkkj",
       input: "abc",
       output: "ABC",
     },
